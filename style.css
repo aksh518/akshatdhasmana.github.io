@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box; }
+
+body{background:url(/background.jpg);}
+
+/* <--------------------HEADER STYLE ---------------------> */
+
+header .nav { background-color:#fff;box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius:7px; margin:20px auto; padding:0 150PX; width:90%; height:80px; color:#7a7171; display:flex; align-items:center; justify-content:space-between; }
+header .nav p{font-family: 'Roboto', sans-serif; letter-spacing:2px; text-shadow:2px 2px 4px #3292ca; color:#146ca0; font-weight:bold; font-size:28px; cursor:pointer;}
+header .nav .active{color:#1f1b1b;}
+header .nav ul li{display:inline-block; padding:0 20px; cursor:pointer; font-size:16px;}
+
+/* <---------------Introstyle---------------------------> */
+
+.intro{background-color:#fff; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius:7px; width:90%; margin:auto; padding:90px 0; display:flex; justify-content:space-evenly; align-items:center;}
+
+.intro .intro-left h4{font-size:18px;font-family:'Roboto', sans-serif; color:#7a7171;}
+.intro .intro-left h1{font-size:50px; font-family:'Roboto', sans-serif;}
+.intro .intro-left h1 span{color:#146ca0; font-size:56px; text-shadow:2px 2px 5px #3292ca;}
+.intro .intro-left p{font-family: 'Quicksand', sans-serif;}
+
+.intro .intro-right img{width:330px; height:320px; border-radius:50%;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+/* <---------------------------About-------------------------> */
+
+.About{background-color:#fff; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius:7px; width:90%; margin:20px auto;padding:50px 150PX;}
+.About h1{font-size:35px; font-family: 'Maven Pro', sans-serif; color:#3292ca;}
+
+.About .introduction h2{font-family:'Roboto', sans-serif; color:#146ca0; }
+.About .introduction p{line-height:20px; margin-top:10px;}
+
+.About .hobbies h2{font-family: 'Roboto', sans-serif; margin-top:70px;color:#146ca0;}
+.About .hobbies p{line-height:20px; margin-top:10px;}
+
+.About .resume h2{font-family: 'Roboto', sans-serif; margin-top:70px;color:#146ca0;}
+.About .resume a{text-decoration:none; color:#fff;}
+.About .resume button{background-color:#3292ca; padding:10px 20px; border:none; box-shadow:#146ca0 0px 5px 8px; margin-top:20px; border-radius:9px;}
+.About .resume button:hover{transform:translateY(-5px); transition-delay:0.2s;}
+
+.About .about-container{display:flex; justify-content:space-between;}
+.About .about-container .right img{height:400px; width:350px;}
+
+
+/* <-------------------------contact------------------------> */
+
+.contact{background-color:#fff;box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius:7px; width:90%; margin:20px auto;padding:50px 150PX 10px;}
+.contact .cnt-icon{display:flex; justify-content:space-between;}
+.contact .cnt-icon .cnt{padding:20px 20px;}
+.contact .cnt-icon .cnt i{font-size:50px; color:#3292ca;}
+.contact .cnt-icon .cnt .fa-linkedin-in:hover{transform:translateY(-8px);transition:transform 0.5s;}
+.contact .cnt-icon .cnt .fa-twitter:hover{transform:translateY(-8px);transition:transform 0.5s;}
+.contact .cnt-icon .cnt .fa-github{color:#000;}
+.contact .cnt-icon .cnt .fa-github:hover{transform:translateY(-8px);transition:transform 0.5s;}
+.contact .cnt-icon .cnt .fa-facebook{color:#00327c;}
+.contact .cnt-icon .cnt .fa-facebook:hover{transform:translateY(-8px);transition:transform 0.5s;}
+.contact .cnt-icon .cnt .fa-envelope{color:#ebc340;}
+.contact .cnt-icon .cnt .fa-envelope:hover{transform:translateY(-8px);transition:transform 0.5s;}
+.contact .cnt-icon .cnt .fa-square-instagram{color:#dd2e86;}
+.contact .cnt-icon .cnt .fa-square-instagram:hover{transform:translateY(-8px); transition:transform 0.5s;}
+
+.contact .footer{text-align:center; margin-top:40px; }
+.contact .footer{color:#585555;font-family: 'Maven Pro', sans-serif; font-size:13px;}
